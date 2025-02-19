@@ -74,7 +74,7 @@ img {
     nav li a {
         width: 150px;
         height: 30px;
-        line-height: 50px;
+        line-height: 30px;
         margin: 5px;
     }
     .batmanvertical {
@@ -86,7 +86,7 @@ img {
 
 /* Desktop Styles */
 
-@media (min-wdith: 1024px) {
+@media (min-width: 1024px) {
     #container {
         width: 65%;
         margin: 20px auto;
@@ -100,7 +100,8 @@ img {
     }
 
     nav li a{
-        background-color: black;
+        background-color: #8F8AA9;
+        color: white;
     }
 
     hr {
