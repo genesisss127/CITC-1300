@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batman Movie Adaptations</title>
+    <link rel="icon" type="image/x-icon" href="/Final_Project/images/batman-icon-png-7.jpg">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1 class="heading_style">Batman Movie Adaptations</h1>
+            <img id="banner" src="images/adaptationheader.jpg" alt="batsignal">
+            <button onclick="document.getElementById('batmanAudio').play()">Play Batman Theme</button>
+
+            <audio id="batmanAudio">
+                <source src="sounds/batmanTheme.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Gadgets.html">Gadgets</a></li>
+                <li><a href="characters.html">Characters</a></li>
+                <li><a href="Adaptations.html">Adaptations</a></li>
+                <li><a href="Gotham.html">Gotham</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Batman Movie Adaptations</h1>
+            <p>Batman has been a staple of the big screen for decades, evolving through various adaptations with unique styles and storytelling approaches.</p>
+            <h2>Batman in Movies</h2>
+            <hr>
+            <section class="timeline-container">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Batman Returns (1992)</h3>
+                            <p>Tim Burton's sequel featured Michael Keaton reprising his role as Batman, facing off against Danny DeVito's Penguin and Michelle Pfeiffer's Catwoman.</p>
+                            <img src="images/BatmanReturns.jpg" alt="Batman Returns">
+                        </div>
+                        <div class="timeline-date">1992</div>
+                    </div>
+            
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>The Dark Knight Trilogy (2005-2012)</h3>
+                            <p>Directed by Christopher Nolan, this trilogy redefined Batman on screen, emphasizing realism and deep character development. Christian Bale starred as Batman, with Heath Ledger's Joker in "The Dark Knight" being one of the most acclaimed performances in cinema history.</p>
+                            <img src="images/TDKTriology.webp" alt="Dark Knight Trilogy">
+                            <div class="video-container">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/EXeTwQWrcwY" 
+                                    title="The Dark Knight Trailer" frameborder="0" allowfullscreen>
+                                </iframe>
+                            </div>
+                        </div>
+                        <div class="timeline-date">2005-2012</div>
+                    </div>
+            
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>The Batman (2022)</h3>
+                            <p>Directed by Matt Reeves, this film presents a younger, more detective-focused Batman, played by Robert Pattinson. The film emphasizes Gotham’s gritty underworld and features Paul Dano as the Riddler.</p>
+                            <img class="Batmanvertical" src="images/Batman2022.jpg" alt="The Batman 2022">
+                        </div>
+                        <div class="timeline-date">2022</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            &copy; 2025 Batman Project Page | All Rights reserved.
+        </footer>
+    </div>
+</body>
+</html>

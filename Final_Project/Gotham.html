@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gotham</title>
+    <link rel="icon" type="image/x-icon" href="/Final_Project/images/batman-icon-png-7.jpg">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1 class="heading_style">Welcome to Gotham City</h1>
+            <img id="banner" src="images/GothamCity.jpg" alt="Gotham City">
+            <button onclick="document.getElementById('batmanAudio').play()">Play Batman Theme</button>
+
+            <audio id="batmanAudio">
+                <source src="sounds/batmanTheme.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Gadgets.html">Gadgets</a></li>
+                <li><a href="characters.html">Characters</a></li>
+                <li><a href="Adaptations.html">Adaptations</a></li>
+                <li><a href="Gotham.html">Gotham</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section class="gotham-section" id="wayne-tower">
+                <h2 class="heading_style">Wayne Tower</h2>
+                <div class="gotham-content">
+                    <img src="images/wayneTower.jpg" alt="Wayne Tower" class="gotham-image">
+                    <div class="gotham-text">
+                        <p>Wayne Tower is the iconic skyscraper that serves as the headquarters for Wayne Enterprises. It stands as a symbol of Bruce Wayne's legacy in Gotham City, offering a blend of cutting-edge technology and corporate power. Wayne Tower is both a hub for Gotham's elite and a secret base of operations for the Dark Knight.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="gotham-section" id="arkham-asylum">
+                <h2 class="heading_style">Arkham Asylum</h2>
+                <div class="gotham-content">
+                    <img src="images/ArkhamA.jpg" alt="Arkham Asylum" class="gotham-image">
+                    <div class="gotham-text">
+                        <p>Arkham Asylum is home to Gotham's most dangerous criminals, housing the city's notorious villains like The Joker, Two-Face, and Harley Quinn. The facility is infamous for its dark history, corruption, and its treatment of the mentally ill. It's a place of nightmares, and it remains a major location in Batman's crusade against crime.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="gotham-section" id="gotham-city">
+                <h2 class="heading_style">Gotham City Streets</h2>
+                <div class="gotham-content">
+                    <img src="images/GothamCityStreetss.jpg" alt="Gotham Streets" class="gotham-image">
+                    <div class="gotham-text">
+                        <p>Gotham's streets are a dark maze, filled with crime and corruption. The city's landscape is constantly shrouded in darkness and fog, creating an eerie atmosphere. From dark alleys to towering skyscrapers, Gotham's streets are the battleground for Batman's fight against crime, and the home of its most dangerous criminals.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="gotham-section" id="batcave">
+                <h2 class="heading_style">The Batcave</h2>
+                <div class="gotham-content">
+                    <img src="images/batcave.jpg" alt="The Batcave" class="gotham-image">
+                    <div class="gotham-text">
+                        <p>Hidden beneath Wayne Manor, the Batcave is Batman's secret lair. It is filled with high-tech gadgets, computers, and evidence that Batman uses to analyze crimes and track down Gotham's criminals. The Batcave serves as Batman's command center, providing him with the resources he needs to protect Gotham from the shadows.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 Gotham City | All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
