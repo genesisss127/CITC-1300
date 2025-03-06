@@ -212,6 +212,10 @@ ul.villain-list li {
     transform: translateY(-50%);
 }
 
+iframe {
+    border: none;
+}
+
 /* Gotham Page Styling */
 #container {
     background-color: #1A1A2E;
